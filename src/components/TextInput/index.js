@@ -43,7 +43,7 @@ class TextInput extends Component {
                 value={userInput}
               />
             )}
-            <Button type="button" onChange={this.onClickButton}>
+            <Button type="button" onClick={this.onClickButton}>
               {buttonText}
             </Button>
           </InputContainer>
