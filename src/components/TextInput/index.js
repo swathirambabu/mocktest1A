@@ -39,7 +39,7 @@ class TextInput extends Component {
             ) : (
               <Input
                 type="input"
-                onChangeInput={this.onChangeInput}
+                onChange={this.onChangeInput}
                 value={userInput}
               />
             )}
